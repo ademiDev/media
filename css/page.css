@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+
+
+}
+.navbar div a{
+    padding: 0 20px;
+}
+.service h1{
+    font-family: ' Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #1F2E35;
+    padding-top: 100px;
+}
+.service div button{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #EE4248;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.service div h2 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+
+}
+.service div p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+    padding: 20px 0
+}
+.service-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about div h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+    padding: 50px 0;
+}
+.about div h1 span{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #EE4248;
+}
+.about div p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+}
+.about div p span{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #EE4248;
+}
